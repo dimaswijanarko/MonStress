@@ -1,0 +1,50 @@
+{
+  "main": 
+  	  {
+  	  	"title":"Relaksasi Setelah Melewati Hari yang Berat",
+	    "image": [
+	    	{
+	    		"title":"Adapun tehnik relaksasi yang dapat digunakan antara lain:",
+	    		"url":"data/content/hari/image011.jpg",
+	    		"desc":"1.Mandi dengan air hangat"
+	    	},{
+	    		"title":"",
+	    		"url":"data/content/hari/image013.jpg",
+	    		"desc":"2.Minum kopi hangat, teh atau sup hangat"
+	    	},{
+	    		"title":"",
+	    		"url":"data/content/hari/image017.jpg",
+	    		"desc":"3.Lakukan Massage atau pijat selama 5 menit atau lebih"
+	    	},{
+	    		"title":"",
+	    		"url":"data/content/hari/image019.jpg",
+	    		"desc":"4.Gunakan aroma terapi dikamar mandi"
+	    	},{
+	    		"title":"",
+	    		"url":"data/content/hari/image020.jpg",
+	    		"desc":"5.Luangkan waktu untuk berolahraga selama 30 menit"
+	    	},{
+	    		"title":"",
+	    		"url":"data/content/hari/image022.jpg",
+	    		"desc":"6.Lihat pemandangan yang indah"
+	    	},{
+	    		"title":"",
+	    		"url":"data/content/hari/image023.jpg",
+	    		"desc":"7.Dengarkan musik yang lembut"
+	    	},{
+	    		"title":"",
+	    		"url":"data/content/hari/image024.jpg",
+	    		"desc":"8.Menonton televisi"
+	    	},{
+	    		"title":"",
+	    		"url":"data/content/hari/image025.jpg",
+	    		"desc":"9.Ngobrol santai dengan keluarga atau teman"
+	    	}
+
+	    ],
+	    "video": [
+
+	    ],
+	    "url":"content/hari/hari.json"
+	  }
+}

@@ -1,0 +1,45 @@
+{
+  "main": 
+  	  {
+  	  	"title":"Belajar Sabar",
+	    "image": [
+	    	{
+	    		"title":"Belajar untuk rileks",
+	    		"url":"data/content/sabar/image001.jpg",
+	    		"desc":""
+	    	},{
+	    		"title":"Fokus pada tujuan akhir",
+	    		"url":"data/content/sabar/image002.png",
+	    		"desc":"Poin ini penting, terutama dalam kesabaran yang erat hubungannya dengan keputusan-keputusan penting di masa depan, misalkan menunggu saat yang tepat untuk membelanjakan uang anda, atau memilih untuk melakukan investasi.  Ingat, anda harus selalu berfokus pada tujuan akhir untuk menghidari sikap terburu-buru yang bisa berakibat sangat fatal. \n Dalam hal-hal kecil, fokus pada tujuan akhir juga bisa membuat anda lebih sabar.  Ingatlah tujuan akhir anda, baik sebagai pelajar, seorang profesional, ibu rumah tangga, atau bahkan tujuan akhir yang ingin anda capai sebagai seorang manusia.  Hal ini akan mencegah anda melakukan hal-hal yang hanya bersifat untuk melampiaskan keinginan sesaat."
+	    	},{
+	    		"title":"Membiasakan diri untuk menulis",
+	    		"url":"data/content/sabar/image003.jpg",
+	    		"desc":"Menulis adalah salah satu terapi untuk menjadi orang sabar, baik sabar yang berarti kemampuan untuk menahan emosi, atau sabar yang berarti kemampuan untuk menahan diri demi masa depan yang lebih baik.  Biasakanlah untuk menulis segala sesuatu yang anda alami, bisa dalam bentuk diary atau berupa jurnal yang mencatat progress aktivitas yang anda lakukan."
+	    	},{
+	    		"title":"Berpikir positif",
+	    		"url":"data/content/sabar/image004.png",
+	    		"desc":"Berpikirlah positif tentang diri anda, tentang orang lain, dan tentang hal-hal yang sedang anda lakukan.  Biasakan pula untuk berpikir positif dalam menghadapi masa depan, dan cobalah untuk mengambil hikmah dari setiap hal buruk yang terjadi.  Jika sikap ini ditanamkan dengan baik, maka anda sudah satu langkah lebih dekat untuk menjadi pribadi yang sabar. \n Dengan membiasakan diri berpikir positif, kita akan menjadi lebih optimis dalam menjalani hidup.  Hasilnya, kita juga akan memancarkan aura yang positif, yang membuat orang lain merasa senang berada di dekat kita.  Hal ini bisa membuat diri anda lebih mudah dalam menjalin relasi dan mendapatkan teman."
+	    	},{
+	    		"title":"Biasakanlah untuk beristirahat",
+	    		"url":"data/content/sabar/image005.jpg",
+	    		"desc":"Di era modern ini, ada banyak orang yang tidak bisa beristirahat.  Kehidupan mereka selalu diburu-buru oleh deadline dan target-target tertentu.  Tak hanya di kalangan profesional, kejadian ini juga menimpa para pelajar, ibu rumah tangga, dan hampir semua orang yang memiliki obsesi terhadap sesuatu.  Mereka akan merasa bersalah apabila harus beristirahat, karena menganggapnya sebagai tindakan membuang-buang waktu yang menjauhkan mereka dari target akhir. \n Pola hidup di atas tentu saja harus dijauhi.  Beristirahat adalah hal yang sangat vital untuk memulihkan kondisi tubuh dan pikiran sehingga nantinya anda bisa bekerja dengan lebih optimal.  Selain itu, saat beristirahat kita bisa mendapatkan berbagai ide dan inspirasi brillian yang berdampak positif terhadap pekerjaan yang kita lakukan."
+	    	},{
+	    		"title":"Bedakan 'kesabaran' dengan 'menunda-nunda pekerjaan'",
+	    		"url":"data/content/sabar/image006.jpg",
+	    		"desc":"Poin ini bisa menjadi satu hal yang menjerumuskan anda.  'Sabar' tidak selalu berarti 'menunda'.  Jangan gunakan kesabaran sebagai dalih untuk melarikan diri dari hal-hal yang seharusnya anda selesaikan."
+	    	},{
+	    		"title":"Selalu berpikir untuk jangka panjang",
+	    		"url":"data/content/sabar/image007.png",
+	    		"desc":"Satu lagi poin terakhir dan paling penting untuk menjadi orang yang sabar adalah selalu berpikir untuk jangka panjang.  Jika saat ini saya membelanjakan uang yang saya dapatkan untuk membeli barang tertentu, akankah hal ini lebih bermanfaat dari keuntungan jangka panjang yang diperoleh jika uang ini saya tabung?  Jika saat ini saya marah  pada seseorang, apakah kemarahan saat ini akan berpengaruh terhadap hubungan jangka panjang saya dengan orang tersebut?  Jika saya menunda pekerjaan ini karena sekarang ingin melakukan hal yang saya sukai, akankah hal ini menimbulkan beban kerja yang terlalu berat di masa depan?  Jika saat ini saya memarahi istri saya, apakah hal ini bisa membuatnya lebih baik di masa depan, atau hanya sekedar luapan kekesalan saja?"
+	    	}
+
+	    ],
+	    "video": [
+	    	{
+	    		"title":"CARA MENJADI ORANG SABAR (TIPS & LATIHAN)",
+	    		"url":"data/content/sabar/CARA MENJADI ORANG SABAR (TIPS & LATIHAN)  Video Tutorial Motivasi & Belajar  Cara Buat & Bikin .mp4"
+	    	}
+	    ],
+	    "url":"content/sabar/sabar.json"
+	  }
+}

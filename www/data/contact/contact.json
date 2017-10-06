@@ -1,0 +1,29 @@
+{
+  "main": [
+  	  {
+	    "name": "Ns. Meigo Anugra Jaya (Meigo)",
+	    "no":"+6285288091334",
+	    "img":"data/contact/ppm.jpg"
+	  }, {
+	    "name": "Ns. Ida Ayu Putri Wulandari (Dayu)",
+	    "no":"+6281246996816",
+	    "img":"data/contact/pp (2).jpeg"
+	  }, {
+	    "name": "Ns. Muliantika (Tika)",
+	    "no":"+6289601376713",
+	    "img":"data/contact/pp (3).jpeg"
+	  }, {
+	    "name": "Ns. Ni Putu Dita Wulandari (Dita)",
+	  	"no":"+6281916680806",
+	  	"img":"data/contact/IMG_1448.JPG"
+	  }, {
+	    "name": "Ns. Nurlaila Fitriani (Ela)",
+	  	"no":"+6282396752993",
+	  	"img":"data/contact/pp (4).jpeg"
+	  }, {
+	    "name": "Ns. Riska Amalya Nasution (Riska)",
+	  	"no":"+6282378947957",
+	  	"img":"data/contact/pp (1).jpeg"
+	  }
+	]
+}

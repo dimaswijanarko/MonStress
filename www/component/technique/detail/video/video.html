@@ -1,0 +1,32 @@
+
+<ion-pane>
+  <ion-header-bar align-title="center" class="bar bar-header bar-positive">
+    <a class="button button-icon icon ion-ios-arrow-left" back></a>
+    <h1 class="title">
+      <img class="title-img" src="img/bar.png">
+    </h1>
+  </ion-header-bar>
+  <ion-content class="padding" overflow-scroll="true">
+    <!-- <div ng-repeat="x in data" ng-click="playVideo(x.url)"> -->
+    <div ng-repeat="x in data">  
+      <div class="item item-text-wrap">
+        {{x.title}}
+      </div>
+      <div class="item item-body">
+        <center>
+          <p>
+            <video controls width="100%">
+              <source ng-src="{{x.url}}" type="video/mp4" />
+            </video>
+          </p>
+        </center>
+      </div>
+      <div class="item item-divider">
+        
+      </div>
+      <br>
+
+    </div>   
+
+  </ion-content>
+</ion-pane>

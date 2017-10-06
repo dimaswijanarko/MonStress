@@ -1,0 +1,64 @@
+<ion-pane>
+  <ion-header-bar align-title="center" class="bar bar-header bar-positive">
+  	<a class="button button-icon icon ion-ios-arrow-left" ng-if="status !== 'first'" back></a>
+    <h1 class="title">
+    	<img class="title-img" src="img/bar.png">
+    </h1>
+  </ion-header-bar>
+  <ion-content class="padding">
+  	
+  	<div class="card" ng-if="isStart">
+
+  		<div class="item item-body">
+		    <img class="full-image" src="img/quiz.jpg">
+		    <center>
+			    <p>
+			      {{msg.titleQuiz}}
+			    </p>
+		    </center>
+		  </div>
+	  <div class="item">
+	       <button class="button button-positive button-block" ng-click="start()" type="submit">Mulai</button>
+	  </div>
+	</div>
+
+	<div class="card" ng-if="isProgress">
+	  <form  name="userForm" novalidate ng-submit="doSubmit()">		
+	  <div class="item item-text-wrap" align="justify">
+	  		<span class="quiz" ng-bind="i+1 + '. ' + quest.question"></span>
+	  		<br><br>
+	  		<span class="dissclaim">{{msg.disclaimerQuiz}}</span>
+	  </div>
+	  <div class="item item-text-wrap">
+	    <ion-list>
+	    	<ion-checkbox ng-repeat="x in answerValue" value="{{x.value}}" ng-model="x.checked" ng-change="checkCekbox($index, x.value)">
+          		{{ x.value }}
+        	</ion-checkbox>
+	    </ion-list>
+	  </div>
+	  <div class="item">
+	  	<button class="button button-positive button-block" type="submit">Lanjut</button>
+	  </div>
+	  </form> 
+	</div>
+
+	<div class="card" ng-if="isResult">
+  		<div class="item item-body">
+		    <img ng-src={{desc.img}} width="100%">
+		  </div>
+	  
+		  <div class="item item-text-wrap">
+		  	<center>
+		    <p>
+		        <span>{{msg.stressLevel}}</span> <span class="stressLevel"> {{data.stressLevel}}</span><br>
+				<span ng-if="desc.desc !== null">{{desc.desc}}</span>
+		    </p>
+		    </center>
+		  </div>
+	  <div class="item">
+	       <button class="button button-positive button-block" ng-click="checkingResult()">Lanjut</button>
+	  </div>
+	</div>
+
+  </ion-content>
+</ion-pane>

@@ -1,0 +1,33 @@
+{
+  "main": 
+  	  {
+  	  	"title":"Manajemen Marah",
+	    "image": [
+	    	{
+	    		"title":"Proses Terjadinya Marah",
+	    		"url":"data/content/marah/Proses Terjadinya Marah.png",
+	    		"desc":""
+	    	},{
+	    		"title":"Tips Pengendalian Emosi",
+	    		"url":"data/content/marah/Tips Pengendalian Emosi.jpg",
+	    		"desc":""
+	    	},{
+	    		"title":"Manajemen Marah.jpg",
+	    		"url":"data/content/marah/manajemen marah.jpg",
+	    		"desc":""
+	    	}
+
+	    ],
+	    "video": [
+	    	{
+	    		"title":"Video Manajemen Marah",
+	    		"url":"data/content/marah/Video Manajemen Marah.mp4"
+	    	}, {
+	    		"title":"5 Cara Mengendalikan Emosi",
+	    		"url":"data/content/marah/5 Cara Mengendalikan Emosi.mp4"
+	    	}
+
+	    ],
+	    "url":"content/marah/marah.json"
+	  }
+}

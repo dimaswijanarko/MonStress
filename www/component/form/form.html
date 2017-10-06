@@ -1,0 +1,70 @@
+<ion-pane>
+  <ion-header-bar align-title="center" class="bar bar-header bar-positive">
+    <h1 class="title">
+    	<img class="title-img" src="img/bar.png">
+    </h1>
+  </ion-header-bar>
+  <ion-content class="padding">
+  	<form  name="userForm" novalidate ng-submit="doSubmit(userForm)">
+  	<div class="card">
+	  <div class="item">
+	        <label class="item item-input item-floating-label">
+	          <i class="icon ion-ios-person placeholder-icon"></i>
+	          <span class="input-label">Nama Lengkap</span>
+	          <input type="text" name="nama" placeholder="Nama Lengkap" ng-model="data.nama" maxlength="60" minlength="5" required>   
+	        </label>
+	        <div ng-messages="userForm.nama.$error" ng-show="userForm.$submitted || userForm.nama.$touched || userForm.nama.$error.pattern">
+			     <div ng-messages-include="component/template/error-msg.html"></div>
+		    </div>
+
+	        <label class="item item-input item-floating-label">
+	          <i class="icon ion-ios-body placeholder-icon"></i>
+	          <span class="input-label">Usia</span>
+	          <input type="number" name="Usia" placeholder="Usia" ng-model="data.usia" maxlength="3" required>
+	        </label>
+	        <div ng-messages="userForm.Usia.$error" ng-show="userForm.$submitted || userForm.Usia.$touched || userForm.Usia.$error.pattern">
+			     <div ng-messages-include="component/template/error-msg.html"></div>
+		    </div>
+
+	        <label class="item item-input item-floating-label">
+	          <i class="icon ion-person-stalker placeholder-icon"></i>
+	          <span class="input-label">Status</span>
+	          <input type="text" name="Status" placeholder="Status" ng-model="data.status" required>
+	        </label>
+	        <div ng-messages="userForm.Status.$error" ng-show="userForm.$submitted || userForm.Status.$touched || userForm.Status.$error.pattern">
+			     <div ng-messages-include="component/template/error-msg.html"></div>
+		    </div>
+
+	        <label class="item item-input item-floating-label">
+	          <i class="icon ion-clipboard placeholder-icon"></i>
+	          <span class="input-label">Pekerjaan</span>
+	          <input type="text" name="Pekerjaan" placeholder="Pekerjaan" ng-model="data.pekerjaan" required>
+	        </label>
+	        <div ng-messages="userForm.Pekerjaan.$error" ng-show="userForm.$submitted || userForm.Pekerjaan.$touched || userForm.Pekerjaan.$error.pattern">
+			     <div ng-messages-include="component/template/error-msg.html"></div>
+		    </div>
+
+	        <label class="item item-input item-floating-label">
+	          <i class="icon ion-iphone placeholder-icon"></i>
+	          <span class="input-label">No. Hp</span>
+	          <input type="tel" name="phone" placeholder="No. Hp" ng-model="data.phone" maxlength="17" required>
+	        </label>
+	        <div ng-messages="userForm.phone.$error" ng-show="userForm.$submitted || userForm.phone.$touched || userForm.phone.$error.pattern">
+			     <div ng-messages-include="component/template/error-msg.html"></div>
+		    </div>
+
+	        <label class="item item-input item-floating-label">
+	          <i class="icon ion-ios-email placeholder-icon"></i>
+	          <span class="input-label">Email</span>
+	          <input type="email" name="email" placeholder="Email" ng-model="data.email" pattern="^([0-9a-zA-Z](['-.\w]*[0-9a-zA-Z])*@(([0-9a-zA-Z])+([-\w']*[0-9a-zA-Z])*\.)+[a-zA-Z]{2,9})$" maxlength="100" required>
+	        </label>
+	        <div ng-messages="userForm.email.$error" ng-show="userForm.$submitted || userForm.email.$touched || userForm.email.$error.pattern">
+			     <div ng-messages-include="component/template/error-msg.html"></div>
+		    </div>
+
+	        <button class="button button-positive button-block" type="submit">Lanjut</button>
+	  </div>
+	</div>
+	</form>
+  </ion-content>
+</ion-pane>

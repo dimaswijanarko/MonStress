@@ -1,0 +1,29 @@
+{
+  "main": 
+  	  {
+  	  	"title":"Istirahat, Relaksasi dan Tidur",
+	    "image": [
+	    	{
+	    		"title":"Relaksasi",
+	    		"url":"data/content/istirahat/gambar relaksasi.jpg",
+	    		"desc":"Istirahat dan tidur merupakan kebutuhan dasar yang mutlak harus dipenuhi oleh semua orang. Istirahat dan tidur yang cukup akan membuat tubuh berfungsi secara optimal."
+	    	},{
+	    		"title":"Relaksasi dan tidur dapat digunakan untuk mengatasi stres, adapun langkah-langkah dalam menerapkan tehnik relaksasi dan tidur antara lain:",
+	    		"url":"data/content/istirahat/Gambar Tidur.jpg",
+	    		"desc":"1. Ambil posisi yang nyaman"
+	    	},{
+	    		"title":"",
+	    		"url":"data/content/istirahat/Relaksasi.jpg",
+	    		"desc":"2. Ambil nafas dalam dan santai, rasakan sensasi rileks disetiap tubuh anda \n 3. Putar musik dengan nada yang tenang"
+	    	}
+
+	    ],
+	    "video": [
+	    	{
+	    		"title":"Musik Relaksasi Tidur, Lagu Penghantar Tidur, Lagu Meditasi Ketenangan ♪",
+	    		"url":"data/content/istirahat/Musik Relaksasi Tidur, Lagu Penghantar Tidur, Lagu Meditasi Ketenangan.mp4"
+	    	}
+	    ],
+	    "url":"content/istirahat/istirahat.json"
+	  }
+}

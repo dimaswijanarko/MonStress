@@ -1,0 +1,17 @@
+{
+  "main": 
+  	  {
+  	  	"title":"Teknik Afirmasi",
+	    "image": [
+
+	    ],
+	    "video": [
+	    	{
+	    		"title":"Afirmasi Hidup Sukses",
+	    		"url":"data/content/afirmasi/AFIRMASI Hidup Sukses - GRATIS AUDIO HYPNOTHERAPY.mp4"
+	    	}
+
+	    ],
+	    "url":"content/afirmasi/afirmasi.json"
+	  }
+}

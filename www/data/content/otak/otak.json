@@ -1,0 +1,17 @@
+{
+  "main": 
+  	  {
+  	  	"title":"Teknik Relaksasi Otot Progresif",
+	    "image": [
+
+	    ],
+	    "video": [
+	    	{
+	    		"title":"Teknik Relaksasi Otot Progresif",
+	    		"url":"data/content/otak/avc_My Movie.mp4"
+	    	}
+
+	    ],
+	    "url":"content/otak/otak.json"
+	  }
+}

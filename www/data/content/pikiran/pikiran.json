@@ -1,0 +1,18 @@
+{
+  "main": 
+  	  {
+  	  	"title":"Pemusatan Pikiran",
+	    "image": [
+	    	{
+	    		"title":"Pemusatan Pikiran",
+	    		"url":"data/content/pikiran/centering-infographic-460w_preview.jpeg",
+	    		"desc":""
+	    	}
+
+	    ],
+	    "video": [
+
+	    ],
+	    "url":"content/pikiran/pikiran.json"
+	  }
+}

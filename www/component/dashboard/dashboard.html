@@ -1,0 +1,48 @@
+<ion-pane>
+  <ion-header-bar align-title="center" class="bar bar-header bar-positive">
+    <h1 class="title">
+    	<img class="title-img" src="img/bar.png">
+    </h1>
+  </ion-header-bar>
+  <ion-content class="padding">
+	<div class="list card">
+
+	  <div class="item item-avatar">
+	    <img src=" img/avatar.jpg">
+	    <h2 ng-bind="data.nama"></h2>
+	  </div>
+
+	  <div class="item item-body">
+	    <center>
+	    	<img ng-src="{{desc.img}}" width="50%">
+	  	</center>
+	  </div>
+	  
+	  <div class="item item-text-wrap">
+	  	<center>
+	    <p>
+	        <span>{{msg.stressLevel}}</span> <span class="stressLevel"> {{data.stressLevel}}</span><br>
+			<span ng-if="desc.desc !== null">{{desc.desc}}</span>
+	    </p>
+	    </center>
+	  </div>
+	
+	</div>
+	<div class="list card card-blue">
+	  <a ui-sref="contact" class="item item-icon-left" ng-if="isCritical">
+	    <i class="icon ion-ios-telephone"></i>
+	    Contact Perawat Jiwa
+	  </a>
+
+	  <a ui-sref="content" class="item item-icon-left">
+	    <i class="icon ion-ionic"></i>
+	    Tips mengurangi stres
+	  </a>
+
+	  <a ui-sref="quizmain" class="item item-icon-left">
+	    <i class="icon ion-speedometer"></i>
+	    Uji tingkat stress
+	  </a>
+	</div>
+  </ion-content>
+</ion-pane>

@@ -1,0 +1,37 @@
+{
+  "main": [
+  	  {
+	    "name": "Teknik Afirmasi",
+	    "sub": "content/afirmasi/afirmasi.json",
+	    "icon": "icon ion-ios-body"
+	  }, {
+	    "name": "Meditasi",
+	    "sub": "content/meditasi/meditasi.json",
+	    "icon":"icon ion-pinpoint"
+	  }, {
+	    "name": "Belajar Sabar",
+	    "sub": "content/sabar/sabar.json",
+	    "icon": "icon ion-heart"
+	  }, {
+	    "name": "Pemusatan Pikiran",
+	  	"sub": "content/pikiran/pikiran.json",
+	  	"icon": "icon ion-person"
+	  }, {
+	    "name": "Teknik Relaksasi Otot Progresif",
+	  	"sub": "content/otak/otak.json",
+	  	"icon": "icon ion-ios-medical"
+	  }, {
+	    "name": "Relaksasi Setelah Melewati Hari yang Berat",
+	  	"sub": "content/hari/hari.json",
+	  	"icon":"icon ion-ios-people"
+	  }, {
+	    "name": "Istirahat, Relaksasi dan Tidur",
+	  	"sub": "content/istirahat/istirahat.json",
+	  	"icon":"icon ion-headphone"
+	  },{
+	    "name": "Manajemen Marah",
+	  	"sub": "content/marah/marah.json",
+	  	"icon": "icon ion-fireball"
+	  }
+	]
+}
